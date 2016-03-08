@@ -55,7 +55,7 @@ foo = str(foo)
 type(foo)
 <type 'int'>
 
-\# being careful
+# being careful
 import math
 type(math)
 <type 'module'>
@@ -76,7 +76,7 @@ foo = range(5)
 foo
 [0, 1, 2, 3, 4]
 
-\# what if I wanted every fifth number?
+# what if I wanted every fifth number?
 range(0, 50, 5)
 [0, 5, 10, 15, 20, 25, 30, 35, 40, 45]
 ```
