@@ -173,7 +173,7 @@ What happened? When we created our dict (heh), we did so in an increasing order 
 numbers, but when we printed the dict, we got something different. For all intents and
 purposes, this is okay. Python knows that when you're using a dict, you don't care about
 order, you care about being able to get a value with a given key. Even still, python
-gives you the ability to preserve order by using a....OrderedDict[python doc](https://docs.python.org/2/library/collections.html?highlight=ordereddict#collections.OrderedDict)
+gives you the ability to preserve order by using a....OrderedDict [python doc](https://docs.python.org/2/library/collections.html?highlight=ordereddict#collections.OrderedDict)
 
 
 
