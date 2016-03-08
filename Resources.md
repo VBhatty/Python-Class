@@ -3,6 +3,7 @@
 ###Resources
 
 + [ThinkPython](http://www.greenteapress.com/thinkpython/thinkpython.html) - Our first textbook, you should be reading this on your own. I will provide reading assignments
++ [Python 2.7.11 documentation](https://docs.python.org/2/) - The bible, the end all be all, your compendium of knowledge about python. When in doubt, check here first.
 + [StackOverflow](https://stackoverflow.com/) - A Q&A site for all kind of programming problems and languages
 + IRC - nothing is better than asking a real person for help with an issue
 	* freenode - a popular IRC network with channels (chat rooms) devoted to almost anything you could think of needing help in for this stage
