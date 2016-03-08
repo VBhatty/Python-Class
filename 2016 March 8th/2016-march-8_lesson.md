@@ -156,11 +156,24 @@ A __list__ is a _mutable_ object that holds data in a list. Mutable means that w
 >>>words.append('student debt')
 >>>words
 ['cliche', 'eccentric', 'senpai', 'student debt']
+```
 
 
+A __dict__ (or dictionary) is an object for storing data in a dictionary-like fashion.
+With dicts, we have a _key_ and a _value_. A dictionary, is a real world example of a
+python dict.
 
-A __dict__ (or dictionary) is an object for storing data in a dictionary-like fashion. With dicts, we have a _key_ and a _value_. A dictionary, is a real world example of a python dict
+```python
+>>>numbers = dict(one=1, two=2, three=3, four=4, five=5)
+>>>numbers
+{'four': 4, 'five': 5, 'three': 3, 'two': 2, 'one': 1}
+```
 
+What happened? When we created our dict (heh), we did so in an increasing order of 
+numbers, but when we printed the dict, we got something different. For all intents and
+purposes, this is okay. Python knows that when you're using a dict, you don't care about
+order, you care about being able to get a value with a given key. Even still, python
+gives you the ability to preserve order by using a....OrderedDict[python doc](https://docs.python.org/2/library/collections.html?highlight=ordereddict#collections.OrderedDict)
 
 
 
